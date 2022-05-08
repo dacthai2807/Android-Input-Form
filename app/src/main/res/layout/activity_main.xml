@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6BFCD4B2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/current_address"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/current_address"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hometown"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/hometown"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/hometown"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_of_birth"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="#DCE9AA74"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="3dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="3dp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        android:visibility="visible"
+        app:autoSizeTextType="none"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/student_id"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/student_id"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/student_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintBaseline_toBaselineOf="@+id/student_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toEndOf="@+id/student_id"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/identity_number"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/identity_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_id"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identity_number"
+        tools:targetApi="lollipop" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email">
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/date_of_birth"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/loginButtonBG"
+        android:ems="10"
+        android:hint="@string/date_of_birth"
+        android:inputType="date"
+        android:textColor="#000000"
+        android:textColorHighlight="#4FFFFFFF"
+        android:textCursorDrawable="@color/loginButtonBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/select_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/select_date"
+        app:layout_constraintBaseline_toBaselineOf="@+id/date_of_birth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="@+id/radio_group" />
+
+    <CheckBox
+        android:id="@+id/c"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:buttonTint="@color/loginButtonBG"
+        android:text="@string/c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioCSButton"
+        tools:targetApi="lollipop" />
+
+    <CheckBox
+        android:id="@+id/java"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:buttonTint="@color/loginButtonBG"
+        android:text="@string/java"
+        app:layout_constraintBaseline_toBaselineOf="@+id/c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toEndOf="@+id/c"
+        tools:targetApi="lollipop" />
+
+    <CheckBox
+        android:id="@+id/python"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:buttonTint="@color/loginButtonBG"
+        android:text="@string/python"
+        app:layout_constraintBaseline_toBaselineOf="@+id/java"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/java"
+        tools:targetApi="lollipop" />
+
+    <CheckBox
+        android:id="@+id/policy"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@color/loginButtonBG"
+        android:text="@string/agree_privacy_policy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/python"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="#FF8E01"
+        android:text="@string/ok"
+        android:textColor="#283593"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/policy" />
+
+    <RadioButton
+        android:id="@+id/radioCEButton"
+        android:layout_width="177dp"
+        android:layout_height="53dp"
+        android:buttonTint="@color/loginButtonBG"
+        android:text="@string/computer_engineering"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioCSButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radioCSButton"
+        tools:targetApi="lollipop" />
+
+    <RadioButton
+        android:id="@+id/radioCSButton"
+        android:layout_width="163dp"
+        android:layout_height="51dp"
+        android:buttonTint="@color/loginButtonBG"
+        android:checked="true"
+        android:text="@string/computer_science"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current_address"
+        tools:targetApi="lollipop" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

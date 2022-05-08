@@ -1,0 +1,20 @@
+<resources>
+    <!--    MainActivity - Strings-->
+    <string name="app_name">Input Form</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_name">Student name</string>
+    <string name="identity_number">Identity number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="hometown">Hometown</string>
+    <string name="current_address">Current address</string>
+    <string name="computer_science">Computer science</string>
+    <string name="computer_engineering">Computer engineering</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="select_date">Select date</string>
+    <string name="c">C</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="agree_privacy_policy"><![CDATA[Agree ? Privacy & Policy]]></string>
+    <string name="ok">OK</string>
+</resources>
